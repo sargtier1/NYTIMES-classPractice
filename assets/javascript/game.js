@@ -7,4 +7,10 @@ url += '?' + $.param({
   'q': searchTerm
 })
 
+$.ajax ({
+    url: url,
+    method: "GET"
+}).then(function(response) {
 
+
+});
