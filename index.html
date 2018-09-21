@@ -31,31 +31,34 @@
                     
                     <div class="form-group">
                         <label for="exampleInputEmail1">Search Term:</label>
-                        <input type="password" class="form-control" id="searchTerm" aria-describedby="emailHelp" placeholder="Enter email">
+                        <input class="form-control" id="searchTerm" aria-describedby="emailHelp" placeholder="Enter Search Term">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Number of Records to Retrieve:</label>
-                        <input type="password" class="form-control" id="numRec" placeholder="Password">
+                        <input class="form-control" id="numRec" placeholder="Enter Number of Records">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Start Year (Optional):</label>
-                        <input type="password" class="form-control" id="startYr" placeholder="Password">
+                        <input class="form-control" id="startYr" placeholder="Enter Start Year">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">End Year (Optional):</label>
-                        <input type="password" class="form-control" id="endYr" placeholder="Password">
+                        <input class="form-control" id="endYr" placeholder="Enter End Year">
                     </div>
                     <button id="execSearch" type="submit" class="btn btn-primary">Search</button>
                     <button id="clear" type="submit" class="btn btn-primary">Clear Results</button>
                 </form>
             </div>
+
+
             <div class="row">
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-header">
-                                <strong>Search Parameters</strong>
+                                <strong>Top Articles</strong>
                             </div>
                         <div class="card-body">
+                            <div id="searchResults"></div>
                         </div>
                         </div>    
                         </div>        
@@ -63,7 +66,7 @@
             
 
             
-            </div>
+            </div><br>
             <div id="footer" class="row">
                 <div class="col-md-12">
                     <p>Made with lots and lots of love</p>
